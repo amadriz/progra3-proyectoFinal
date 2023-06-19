@@ -7,6 +7,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link href="css/misEstilos.css" rel="stylesheet" />
+
     <title>Programación 3 proyecto Final</title>
 </head>
 
@@ -46,23 +47,22 @@
                                 </li>
                                 <li>
                                     <a href="# " class="nav-link px-0 align-middle ">
-                                        <i class="fs-4 bi-people "></i> <span class="ms-1 d-none d-sm-inline ">Proyectos de escuela</span> </a>
+                                        <i class="fs-4 bi-people "></i> <span class="ms-1 d-none d-sm-inline ">Proyectos
+                                            de escuela</span> </a>
                                 </li>
                             </ul>
                             <hr>
                             <div class="dropdown pb-4 ">
                                 <!-- Formulario para login de usuario -->
                                 <form>
-                                    <div class="input-group mb-3 ">
-                                        <div class="btn-group " role="group ">
-                                            <button id="btnGroupDrop1 " type="button " class="btn btn-primary dropdown-toggle " data-bs-toggle="dropdown " aria-expanded="false ">
-                                              Seleccione Usuario
-                                            </button>
-                                            <ul class="dropdown-menu " aria-labelledby="btnGroupDrop1 ">
-                                                <li><a class="dropdown-item " href="# ">Alumno</a></li>
-                                                <li><a class="dropdown-item " href="# ">Profesor</a></li>
-                                            </ul>
-                                        </div>
+                                    <div class="input-group mb-3">
+                                        <label class="input-group-text" for="inputGroupSelect01">Perfil</label>
+                                        <select class="form-select" id="inputGroupSelect01">
+                                          <option selected>Seleccione...</option>
+                                          <option value="1">Alumno</option>
+                                          <option value="2">Profesor</option>
+                                          <option value="3">Otro</option>
+                                        </select>
                                     </div>
                                     <div class="mb-3 ">
                                         <label for="exampleInputEmail1 " class="form-label ">Usuario</label>
@@ -78,17 +78,63 @@
                         </div>
                     </div>
                     <div class="col py-3 ">
-                        Content area...
+                        <table>
+                            <tr>
+                                <td><b>Código del centro:</b></td>
+                                <td><b>CIF:</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>Dirección:</b></td>
+                                <td><b>CP:</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>Teléfono:</b></td>
+                                <td><b>Móvil:</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>Fax:</b></td>
+                                <td><b>Email:</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><b>Modalidad linguística:</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><b>Educación infatil- 2 ciclo:</b></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2"><b>Educación primaria:</b></td>
+                            </tr>
+                        </table>
+
+                        <hr>
+
+                        <h2>Rasgos de identidad</h2>
+                        <ul>
+                            <li>Pluralismo</li>
+                            <li>Democracia</li>
+                            <li>Coeducación</li>
+                            <li>Aconfesionalidad</li>
+                            <li>Participación</li>
+                            <li>Ecología</li>
+                            <li>Integración</li>
+                            <li>Paz</li>
+                            <li>Cooperación</li>
+                            <li>Solidaridad</li>
+                        </ul>
                     </div>
                 </div>
+                <!-- Row Ends -->
             </div>
+            <!-- Container ends -->
         </div>
+        <!-- Row Ends -->
 
 
     </div>
     <!-- Contenedor principal -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js " integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz " crossorigin="anonymous "></script>
+
 </body>
 
 </html>
