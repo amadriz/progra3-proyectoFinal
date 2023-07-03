@@ -1,17 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+/* Smarty version 4.3.1, created on 2023-07-03 21:16:43
+  from 'C:\wamp64\www\progra3-proyectoFinal_conSmarty\view\templates\index.tpl' */
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.1',
+  'unifunc' => 'content_64a33abbbeddf3_72036578',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '7294a982683595148ceecda8616fd0c7f335b11c' => 
+    array (
+      0 => 'C:\\wamp64\\www\\progra3-proyectoFinal_conSmarty\\view\\templates\\index.tpl',
+      1 => 1688418992,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+    'file:header.tpl' => 1,
+    'file:footer.tpl' => 1,
+  ),
+),false)) {
+function content_64a33abbbeddf3_72036578 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_subTemplateRender("file:header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="css/misEstilos.css" rel="stylesheet" />
-    <title>Programación 3 proyecto Final</title>
-</head>
 
-<body>
-    <div class="container-fluid">
+<div class="container-fluid">
         <div class="row">
             <!-- Menu Lateral -->
             <div class="container-fluid">
@@ -77,7 +93,7 @@
                         </div>
                     </div>
                     <div class="col py-3">
-                        Content area...
+                        Contenido de la página
                     </div>
                 </div>
             </div>
@@ -85,9 +101,11 @@
 
 
     </div>
-    <!-- Contenedor principal -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-</body>
 
-</html>
+
+<?php $_smarty_tpl->_subTemplateRender("file:footer.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
+?>
+
+<?php }
+}
